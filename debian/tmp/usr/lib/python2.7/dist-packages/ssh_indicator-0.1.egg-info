@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ssh-indicator
+Version: 0.1
+Summary: list your ssh servers
+Home-page: https://github.com/francescop/ssh-indicator
+Author: Francesco Palazzini
+Author-email: palazzini.francesco@gmail.com
+License: GPL-3
+Description: 
+        The SSH indicator allows you to list your ssh servers directly from your panel. 
+          
+Platform: UNKNOWN
+Requires: gi.repository.AppIndicator
+Requires: gi.repository.AppIndicator3
+Requires: gi.repository.Gtk
+Provides: ssh_indicator
+Provides: ssh_indicator_lib

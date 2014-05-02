@@ -1,0 +1,22 @@
+Source: ssh-indicator
+Section: python
+Priority: extra
+Build-Depends: debhelper (>= 8),
+               python (>= 2.6.6-3~),
+               python-distutils-extra (>= 2.10)
+Maintainer: Francesco Palazzini <palazzini.francesco@gmail.com>
+Standards-Version: 3.9.3.1
+X-Python-Version: >= 2.6
+Homepage: https://github.com/francescop/ssh-indicator
+
+Package: ssh-indicator
+Architecture: all
+Depends: gir1.2-appindicator3-0.1,
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-notify-0.7,
+         ${misc:Depends},
+         ${python:Depends}
+Description: list your ssh servers
+ The SSH indicator allows you to list your
+ ssh servers directly from your panel.

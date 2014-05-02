@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/ssh-indicator-$1\.tar\.gz/ \
+  https://github.com/francescop/ssh-indicator/tags .*/v?(\d\S*)\.tar\.gz

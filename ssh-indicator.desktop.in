@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=SSH Indicator
+_Comment=List your SSH servers
+Categories=GNOME;Utility;
+Exec=ssh-indicator
+Icon=ssh-indicator
+Terminal=false
+Type=Application
