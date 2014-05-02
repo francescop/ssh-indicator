@@ -10,4 +10,4 @@ You can install it on Ubuntu from a PPA:
     sudo apt-get update
     sudo apt-get install ssh-indicator
 
-DigitalOcean Indicator is licensed under the GPL 3.0.
+SSH Indicator is licensed under the GPL 3.0.
